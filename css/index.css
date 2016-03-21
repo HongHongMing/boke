@@ -224,7 +224,7 @@ body {
 	background-color: #f8f8f8;
 } */
 }
-.Decorated_pic .love {
+/* .Decorated_pic .love {
   position: absolute;
   display: block;
   padding: 0 10px 0 18px;
@@ -234,7 +234,20 @@ body {
   background-size: 10px 9px;
   background-color: rgba(255, 255, 255, 0.5);
   border-radius: 3px;
+} */
+.Decorated_pic div span{
+  position: absolute;
+  padding: 4px 6px 4px 21px;
+  right: 10px;
+  bottom: 10px;
+  background: rgba(255, 255, 255, 0.6) url(../img/love.png) no-repeat;
+  background-size: 12px 10px;
+  background-position: 5px center;
+  border-radius: 4px;
+  font-size: 1rem;
+  color: #666666;
 }
+ 
 .Decorated_pic .pic1 {
   border-top: 1px solid #ededed;
   position: relative;
@@ -946,6 +959,7 @@ footer li:nth-child(4) a:before {
   height: 10px;
   padding-left: 5px;
   display: inline-block;
+  vertical-align: middle;
   background: url("../img/icon6.png") no-repeat;
   background-size: 10px 10px;
 }
