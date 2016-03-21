@@ -449,6 +449,7 @@ body {
   color: #3c3c3c;
   font-size: 1rem;
   margin-bottom: 8px;
+  padding-left: 1.4%;
 }
 .imputedPrice_main select option {
   color: #3c3c3c;
@@ -492,6 +493,7 @@ body {
 .input_area {
   width: 47%;
   height: 29.5px;
+  padding-left: 1.4%;
   border: 1px solid #ededed;
   border-radius: 5px;
 }
