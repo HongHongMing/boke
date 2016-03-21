@@ -712,15 +712,18 @@ body {
   margin-top: 9px;
   padding-bottom: 12.5px;
   border-bottom: 1px solid #ededed;
+  overflow: hidden;
 }
 .DecorateProblem .seo_box {
   border: 1px solid #ededed;
   border-right: none;
+  float: left;
   width: 67%;
   height: 26px;
   padding-left: 14px;
   border-radius: 5px 0px 0px 5px ;
   vertical-align: middle;
+  overflow: hidden;
 }
 .DecorateProblem .pro_li {
   padding-top: 11px;
@@ -774,9 +777,10 @@ body {
   width: 0px;
 }
 .DecorateProblem .sumbit {
-  display: inline-block;
+  display:block;
   height: 28px;
   width: 28%;
+  float: left;
   line-height: 28px;
   text-align: center;
   background: url("../img/icon2.jpg") 16px 8px no-repeat;
