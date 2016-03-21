@@ -720,6 +720,7 @@ body {
   height: 26px;
   padding-left: 14px;
   border-radius: 5px 0px 0px 5px ;
+  vertical-align: middle;
 }
 .DecorateProblem .pro_li {
   padding-top: 11px;
@@ -783,6 +784,7 @@ body {
   background-color: #fa4e3e;
   color: #fff;
   border-radius: 0px 5px 5px 0px;
+  vertical-align: middle;
 }
 .new .new-li {
   border-top: 1px solid #ededed;
