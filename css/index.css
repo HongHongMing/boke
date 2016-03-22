@@ -717,7 +717,8 @@ body {
 .DecorateProblem .seo_box {
   border: 1px solid #ededed;
   border-right: none;
-  float: left;
+  /*float: left;*/
+  display: inline-block;
   width: 67%;
   height: 26px;
   padding-left: 14px;
@@ -777,10 +778,10 @@ body {
   width: 0px;
 }
 .DecorateProblem .sumbit {
-  display:block;
+  display:inline-block;
   height: 28px;
   width: 28%;
-  float: left;
+  /*float: left;*/
   line-height: 28px;
   text-align: center;
   background: url("../img/icon2.jpg") 16px 8px no-repeat;
