@@ -1,6 +1,7 @@
 html,
 body {
   max-width: 640px;
+  margin: 0 auto;
 }
 .T2 {
   font-size: 1.4rem;
